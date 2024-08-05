@@ -1,0 +1,53 @@
+.card {
+    border: 2px solid #0f0303;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #010803;
+    width: 200px;/* Adjust this value as needed for desired card width */
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: beige;
+   
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    /* color: azure; */
+  }
+  
+  /* .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .description {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .button {
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #126670;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
+  .button:hover {
+    background-color: #102907;
+  }
+  

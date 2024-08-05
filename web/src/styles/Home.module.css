@@ -1,3 +1,17 @@
+.container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Allows scrolling if content overflows */
+  display: flex;
+  flex-wrap: wrap; /* Allows tasks to wrap to the next line if they overflow */
+  gap: 20px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
